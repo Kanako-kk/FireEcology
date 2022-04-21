@@ -13,6 +13,11 @@ Objective: Does any of these plant characteristics affect live fuel moisture per
 <br />
 <br />
 
+ipynb file: Cleaning of 4 csv files and merging
+R file: Data Visualization using data frames created by ipynb file
+Poster: Scientific poster created with Dr. Kate Wilkin, presented at SJSU 
+
+
 Result: 
 - Growth State🌱: As expected: Dead materials have lower avg fuel mositure  <br />
 - Nativity🌱: Native plants have higher avg fuel moisture  <br />
