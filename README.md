@@ -1,5 +1,5 @@
 # Deciduous Plants are More Hazardous than Previously Found in California Home Ignition Zone
-https://github.com/Kanako-kk/FireEcology/blob/9b7ada3cfa4be19c57d7b5f9e033a1e0bb60ed32/Kanako_Kato_poster3.pdf
+![Alt text]https://github.com/Kanako-kk/FireEcology/blob/9b7ada3cfa4be19c57d7b5f9e033a1e0bb60ed32/Kanako_Kato_poster3.pdf
 
 
 Objective: Does any of these plant characteristics affect live fuel moisture percentage?  <br />
