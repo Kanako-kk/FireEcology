@@ -1,0 +1,91 @@
+---
+title: "R_fuel_moisture"
+author: "Kana"
+date: "4/21/2022"
+output:
+  pdf_document: default
+  html_document: default
+---
+
+```{r}
+library(ggplot2)
+library(esquisse)
+library(ggpubr)
+```
+##Mean live fuel of deciduous vs evergreens 
+
+```{r}
+ggerrorplot(oldwithinfoUPDATED2, 'Deciduous', 'fuel moisture percent', 
+            desc_stat = "mean_sd", color = "black",
+            add = "jitter", add.params = list(color = "darkseagreen3")
+)  
+```
+##Mean live fuel of Natives vs Non-Natives
+```{r}
+ggerrorplot(oldwithinfoUPDATED2, 'Native', 'fuel moisture percent', 
+            desc_stat = "mean_sd", color = "black",
+            add = "jitter", add.params = list(color = "darkseagreen3")
+) 
+```
+##Mean live fuel of Conifers vs Non-Conifers 
+```{r}
+ggerrorplot(oldwithinfoUPDATED2, 'Conifers', 'fuel moisture percent', 
+            desc_stat = "mean_sd", color = "black",
+            add = "jitter", add.params = list(color = "darkseagreen3")
+) 
+
+```
+##Mean live fuel of Herbs vs Non-Herbs
+```{r}
+            
+ggerrorplot(oldwithinfoUPDATED2, 'Herb', 'fuel moisture percent', 
+            desc_stat = "mean_sd", color = "black",
+            add = "jitter", add.params = list(color = "darkseagreen3")
+) 
+
+```
+
+# Timeline of ive fuel mositure percentage color by deciduous shape by common name
+  
+```{r}
+ggplot(oldwithinfoUPDATED2,aes(x=`WET Date (MM/DD/YYYY)`, 
+                     y = `fuel moisture percent`, 
+                     fill = `Common plant name`,
+                     color= `Deciduous`, 
+                     linetype=`Deciduous`, 
+                     shape=`Common plant name`))+
+  geom_point()+
+  geom_line()+
+  scale_shape_manual(values = c(1:25))
+```
+
+
+
+#trendline
+```{r}
+library(ggplot2)
+
+ggplot(oldwithinfoUPDATED2, aes(x=`WET Date (MM/DD/YYYY)`, 
+                                y=`fuel moisture percent`,
+                                color= `Deciduous`))+
+                                #shape=`Common name (lower case unless proper noun)`))+
+  geom_point()+
+  geom_smooth()
+#add trendline method=lm
+
+```
+
+
+#2 sample t test 
+```{r}
+
+t.test(`fuel moisture percent`~Deciduous, mu=0, alt='two.sided', conf=0.95, data=oldwithinfoUPDATED2)
+t.test(`fuel moisture percent`~Native, mu=0, alt='two.sided', conf=0.95, data=oldwithinfoUPDATED2)
+t.test(`fuel moisture percent`~Safe, mu=0, ,alt='two.sided', conf=0.95, data=oldwithinfoUPDATED2)
+ggplot(OND1) +
+  geom_bar( aes(x=state, y='fuel moisture percent'), stat="identity", fill="skyblue", alpha=0.7) +
+  geom_errorbar( aes(x=state, ymin='fuel moisture percent'-sd, ymax='fuel moisture percent'+sd), width=0.4, colour="orange", alpha=0.9, size=1.3)
+
+```
+
+
