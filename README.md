@@ -13,7 +13,7 @@ Objective: Does any of these plant characteristics affect live fuel moisture per
 <br />
 <br />
 
-result: 
+Result: 
 - Growth State🌱: As expected: Dead materials have lower avg fuel mositure  <br />
 - Nativity🌱: Native plants have higher avg fuel moisture  <br />
 - Irrigation🌱: No effect  <br />
