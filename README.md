@@ -2,10 +2,11 @@
 
 
 Objective: Does any of these plant characteristics affect live fuel moisture percentage?  <br />
-Growth State  <br />
-Nativity  <br />
-Irrigation  <br />
-Deciduous vs evergreen  <br />
-Herbs vs Non-Herbs  <br />
-Conifers vs Non-Conifers  <br />
-Resin  <br />
+-Growth State  <br />
+-Nativity  <br />
+-Irrigation  <br />
+-Deciduous vs evergreen  <br />
+-Herbs vs Non-Herbs  <br />
+-Conifers vs Non-Conifers  <br />
+-Resin  <br />
+
