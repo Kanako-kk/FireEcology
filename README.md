@@ -1,6 +1,5 @@
 # Deciduous Plants are More Hazardous than Previously Found in California Home Ignition Zone
 
-![alt text][Kanako_Kato_poster3.pdf](https://github.com/Kanako-kk/FireEcology/files/8534551/Kanako_Kato_poster3.pdf)
 ![Kanako_Kato_poster3-page-001](https://user-images.githubusercontent.com/83787539/164540406-0671d14f-07e4-4e75-82bc-64406cffc7e6.jpg)
  
 
