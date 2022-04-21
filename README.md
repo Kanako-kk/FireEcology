@@ -1,4 +1,4 @@
-## Deciduous Plants are More Hazardous than Previously Found in California Home Ignition Zone
+# Deciduous Plants are More Hazardous than Previously Found in California Home Ignition Zone
 
 
 Objective: Does any of these plant characteristics affect live fuel moisture percentage?  <br />
